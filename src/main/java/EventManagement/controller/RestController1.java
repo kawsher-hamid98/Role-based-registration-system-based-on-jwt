@@ -3,6 +3,8 @@ package EventManagement.controller;
 import EventManagement.model.User;
 import EventManagement.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,7 +13,7 @@ import java.util.List;
 @CrossOrigin(origins = "http://localhost:4200", allowedHeaders = "*")
 @RequestMapping(value = "/rest")
 @RestController
-public class TestRestAPIs {
+public class RestController1 {
     @Autowired private UserRepository userRepository;
 	
 	@GetMapping("/admin")
@@ -20,15 +22,10 @@ public class TestRestAPIs {
 	    return userRepository.findAll();
 	}
 
-	@DeleteMapping("/admin/{id}")
+	@DeleteMapping("/{id}")
     @PreAuthorize("hasAuthority('ADMIN')")
-	public void deleteUser(@PathVariable("id") String id) {
+	public ResponseEntity<String> deleteUser(@PathVariable("id") String id) {
 		userRepository.deleteById(id);
+		return new ResponseEntity<>("Customer has been deleted!", HttpStatus.OK);
 	}
-
-	@GetMapping("/userpage")
-    @PreAuthorize(("hasAuthority('USER')"))
-    public String get() {
-	    return "Hello there user access";
-    }
 }

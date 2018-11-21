@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa9447d5-7233-42b6-bf0d-e2e372169336" name="Default Changelist" comment="" />
+    <list default="true" id="aa9447d5-7233-42b6-bf0d-e2e372169336" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/EventManagement/controller/GeneralEventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EventManagement/controller/TicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EventManagement/model/GeneralEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EventManagement/model/SpecialEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EventManagement/model/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EventManagement/repository/GeneralEventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EventManagement/repository/SpecialEventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EventManagement/repository/TicketRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/SpringBootJwtAuthenticationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/SpringBootJwtAuthenticationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/controller/AuthRestAPIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/controller/TestRestAPIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/controller/RestController1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/message/response/JwtResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/message/response/JwtResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/model/RoleName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/security/jwt/JwtProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/security/jwt/JwtProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/security/services/UserPrinciple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/security/services/UserPrinciple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/roles.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/SpringBootJwtAuthenticationApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/controller/AuthRestAPIs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/controller/TestRestAPIs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/message/request/LoginForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/message/request/SignUpForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/message/response/JwtResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/message/response/ResponseMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/model/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/model/RoleName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/security/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/security/jwt/JwtAuthEntryPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/security/jwt/JwtAuthTokenFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/security/jwt/JwtProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/security/services/UserDetailsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/security/services/UserPrinciple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/grokonez/jwtauthentication/SpringBootJwtAuthenticationApplicationTests.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,38 +53,56 @@
     <session id="1246055366">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="26" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.102" value="1" />
+          <entry key="project.open.time.106" value="1" />
+          <entry key="project.open.time.125" value="1" />
+          <entry key="project.open.time.135" value="1" />
+          <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.60" value="1" />
-          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.62" value="4" />
           <entry key="project.open.time.65" value="2" />
+          <entry key="project.open.time.66" value="1" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.open.time.68" value="2" />
+          <entry key="project.open.time.70" value="1" />
           <entry key="project.open.time.77" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.78" value="1" />
+          <entry key="project.open.time.84" value="1" />
+          <entry key="project.open.time.87" value="2" />
+          <entry key="project.open.time.92" value="1" />
+          <entry key="project.open.time.95" value="1" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="65" />
-          <entry key="properties" value="6" />
-          <entry key="sql" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="java" value="143" />
+          <entry key="properties" value="9" />
+          <entry key="sql" value="2" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="65" />
-          <entry key="Properties" value="6" />
-          <entry key="SQL" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="JAVA" value="143" />
+          <entry key="Properties" value="9" />
+          <entry key="SQL" value="2" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="908" />
-          <entry key="Properties" value="34" />
+          <entry key="JAVA" value="3695" />
+          <entry key="PLAIN_TEXT" value="56" />
+          <entry key="Properties" value="72" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -52,8 +110,9 @@
       <usages-collector id="statistics.php.new.test" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="908" />
-          <entry key="properties" value="34" />
+          <entry key="dummy" value="56" />
+          <entry key="java" value="3695" />
+          <entry key="properties" value="72" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
@@ -68,20 +127,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/AuthRestAPIs.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/GeneralEventController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+            <state relative-caret-position="255">
+              <caret line="38" column="51" lean-forward="true" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/RestController1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="37">
+              <caret line="12" column="24" selection-start-line="12" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -89,8 +153,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="300">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,66 +163,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/message/response/JwtResponse.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/AuthController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#800#801#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
-                <element signature="e#969#970#0" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/model/Role.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/TestRestAPIs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="e#873#874#0" expanded="true" />
-                <element signature="e#970#971#0" expanded="true" />
-                <element signature="e#1015#1016#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/message/response/ResponseMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="171">
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,13 +175,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/message/request/SignUpForm.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/security/services/UserPrinciple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -181,8 +186,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/message/request/LoginForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="120">
               <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/message/request/SignUpForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -191,15 +205,53 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/security/jwt/JwtAuthEntryPoint.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/repository/TicketRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/model/Ticket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/repository/GeneralEventRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -212,7 +264,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/repository/RoleRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/security/services/UserPrinciple.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -224,8 +275,30 @@
         <option value="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/model/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/controller/AuthRestAPIs.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EventManagement/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/security/services/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/security/jwt/JwtProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/security/jwt/JwtAuthTokenFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/controller/RestController1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/controller/EventController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/model/Event.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/controller/SpecialEventCotroller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/repository/GeneralEventRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/model/SpecialEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/repository/SpecialEventRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/controller/SpecialEventController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/security/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/controller/AuthController.java" />
         <option value="$PROJECT_DIR$/src/main/java/EventManagement/message/response/JwtResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/SpringBootJwtAuthenticationApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/model/GeneralEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/repository/TicketRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/model/Ticket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/controller/TicketController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/message/request/SignUpForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/security/services/UserPrinciple.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/controller/GeneralEventController.java" />
       </list>
     </option>
   </component>
@@ -258,9 +331,6 @@
           <State />
           <State>
             <id>AOP</id>
-          </State>
-          <State>
-            <id>Android</id>
           </State>
           <State>
             <id>Ant</id>
@@ -300,9 +370,6 @@
           </State>
           <State>
             <id>Control flow issuesJavaScript</id>
-          </State>
-          <State>
-            <id>CorrectnessLintAndroid</id>
           </State>
           <State>
             <id>Data flowJava</id>
@@ -356,9 +423,6 @@
             <id>Hibernate</id>
           </State>
           <State>
-            <id>IconsUsabilityLintAndroid</id>
-          </State>
-          <State>
             <id>Inheritance issuesJava</id>
           </State>
           <State>
@@ -366,9 +430,6 @@
           </State>
           <State>
             <id>InternationalizationJava</id>
-          </State>
-          <State>
-            <id>InternationalizationLintAndroid</id>
           </State>
           <State>
             <id>JBoss Seam</id>
@@ -410,9 +471,6 @@
             <id>Kotlin</id>
           </State>
           <State>
-            <id>LintAndroid</id>
-          </State>
-          <State>
             <id>Maven</id>
           </State>
           <State>
@@ -438,9 +496,6 @@
           </State>
           <State>
             <id>PerformanceJava</id>
-          </State>
-          <State>
-            <id>PerformanceLintAndroid</id>
           </State>
           <State>
             <id>Plugin DevKit</id>
@@ -479,9 +534,6 @@
             <id>SQL</id>
           </State>
           <State>
-            <id>SecurityLintAndroid</id>
-          </State>
-          <State>
             <id>Serialization issuesJava</id>
           </State>
           <State>
@@ -507,9 +559,6 @@
           </State>
           <State>
             <id>UI Form</id>
-          </State>
-          <State>
-            <id>UsabilityLintAndroid</id>
           </State>
           <State>
             <id>Validity issuesGroovy</id>
@@ -544,11 +593,15 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -590,13 +643,28 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="EventManagement" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootJwtAuthentication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootJwtAuthentication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="EventManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootJwtAuthentication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootJwtAuthentication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -607,11 +675,11 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541176265912" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541348793284" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -625,50 +693,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+  <component name="RunManager" selected="Spring Boot.SpringBootJwtAuthenticationApplication (1)">
+    <configuration name="SpringBootJwtAuthenticationApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="EventManagementSystem" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="EventManagementSystem" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EventManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="EventManagement.SpringBootJwtAuthenticationApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -680,6 +714,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpringBootJwtAuthenticationApplication" />
+      <item itemvalue="Spring Boot.SpringBootJwtAuthenticationApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringBootJwtAuthenticationApplication (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -700,16 +743,40 @@
       <workItem from="1541000958221" duration="3939000" />
       <workItem from="1541015247418" duration="1602000" />
       <workItem from="1541157494072" duration="3982000" />
+      <workItem from="1541254385541" duration="1121000" />
+      <workItem from="1541334452317" duration="2850000" />
+      <workItem from="1541350291944" duration="25000" />
+      <workItem from="1541353186118" duration="314000" />
+      <workItem from="1541353551303" duration="144000" />
+      <workItem from="1541353762114" duration="1922000" />
+      <workItem from="1541356807956" duration="187000" />
+      <workItem from="1541423439984" duration="2478000" />
+      <workItem from="1541507307084" duration="5302000" />
+      <workItem from="1541619195306" duration="882000" />
+      <workItem from="1541653562310" duration="635000" />
+      <workItem from="1541665651157" duration="709000" />
+      <workItem from="1542280120157" duration="11462000" />
+      <workItem from="1542379046564" duration="1276000" />
+      <workItem from="1542463804284" duration="1789000" />
+      <workItem from="1542544793590" duration="7000" />
+      <workItem from="1542545324206" duration="462000" />
+      <workItem from="1542551868902" duration="1833000" />
+      <workItem from="1542630452932" duration="6272000" />
+      <workItem from="1542705841608" duration="573000" />
+      <workItem from="1542714379500" duration="3950000" />
+      <workItem from="1542775680517" duration="4977000" />
+      <workItem from="1542785358516" duration="12451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40043000" />
+    <option name="totallyTimeSpent" value="101664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23298033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -719,8 +786,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4863124" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49919486" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.71336555" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -752,137 +819,203 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/repository/RoleRepository.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="210">
+          <caret line="43" column="51" lean-forward="true" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/roles.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/roles.sql" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="21" selection-start-line="47" selection-start-column="4" selection-end-line="68" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="156" column="19" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/message/response/ResponseMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/model/RoleName.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/model/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/security/services/UserDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/model/RoleName.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/message/response/JwtResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="165">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+          <folding>
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/security/jwt/JwtAuthEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/security/jwt/JwtAuthTokenFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="465">
+          <caret line="47" column="78" selection-start-line="47" selection-start-column="78" selection-end-line="47" selection-end-column="78" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/security/jwt/JwtProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/TicketController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/security/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="63" column="92" selection-start-line="63" selection-start-column="92" selection-end-line="63" selection-end-column="92" />
+        <state relative-caret-position="345">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1614#1615#0" expanded="true" />
+            <element signature="e#1661#1662#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/security/services/UserPrinciple.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/SpringBootJwtAuthenticationApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="49" />
+        <state relative-caret-position="75">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/repository/SpecialEventRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/model/SpecialEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/model/GeneralEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/security/jwt/JwtProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/model/Ticket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/security/jwt/JwtAuthEntryPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/model/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="210">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/repository/GeneralEventRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/repository/TicketRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/RestController1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="12" column="24" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/TicketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/message/response/JwtResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/message/response/ResponseMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/message/request/SignUpForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -891,33 +1024,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/message/request/LoginForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="120">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/message/request/SignUpForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/AuthRestAPIs.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/security/services/UserPrinciple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+        <state relative-caret-position="15">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/TestRestAPIs.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        <state relative-caret-position="171">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/GeneralEventController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="38" column="51" lean-forward="true" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
           </folding>
         </state>
       </provider>

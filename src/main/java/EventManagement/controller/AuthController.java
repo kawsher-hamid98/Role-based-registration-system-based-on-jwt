@@ -13,6 +13,7 @@ import EventManagement.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -29,7 +30,7 @@ import EventManagement.security.jwt.JwtProvider;
 @CrossOrigin(origins = "http://localhost:4200", allowedHeaders = "*")
 @RestController
 @RequestMapping("/api/auth")
-public class AuthRestAPIs {
+public class AuthController {
 
 	@Autowired
 	AuthenticationManager authenticationManager;
@@ -57,7 +58,7 @@ public class AuthRestAPIs {
 		String jwt = jwtProvider.generateJwtToken(authentication);
 		UserDetails userDetails = (UserDetails) authentication.getPrincipal();
 
-		return ResponseEntity.ok(new JwtResponse(jwt, userDetails.getUsername(), userDetails.getAuthorities()));
+		return ResponseEntity.ok(new JwtResponse(jwt, userDetails.getUsername() ,userDetails.getAuthorities()));
 	}
 
 	@PostMapping("/signup")
@@ -89,6 +90,7 @@ public class AuthRestAPIs {
 	}
 
 	@PostMapping("/admin")
+	@PreAuthorize("hasAuthority('ADMIN')")
 	public ResponseEntity<?> registerUser1(@Valid @RequestBody SignUpForm signUpRequest) {
 		if (userRepository.existsByUsername(signUpRequest.getUsername())) {
 			return new ResponseEntity<>(new ResponseMessage("Fail -> Username is already taken!"),
